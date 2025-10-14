@@ -22,7 +22,7 @@ cd hr_system
 Создаём .env файл
 ```bash
 DEBUG=1
-DB_NAME=db_name
+DB_NAME=hr_system_db
 DB_USER=user
 DB_PASSWORD=password
 DB_HOST=db
@@ -60,3 +60,4 @@ http://localhost:8000/api/workers/import/
 ### Контакты
 - tg: @eeezz_z
 - gh: https://github.com/DmitriyChubarov
+
