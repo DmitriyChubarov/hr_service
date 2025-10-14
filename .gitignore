@@ -1,0 +1,15 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.swp
+*.swo
+.DS_Store
+
+# Django
+*.log
+*.pot
+*.py[cod]
+.env
+
