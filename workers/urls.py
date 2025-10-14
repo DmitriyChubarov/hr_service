@@ -9,6 +9,6 @@ urlpatterns = [
     path('auth/', include('rest_framework.urls')),
 
     path('workers/', WorkerListCreateAPIView.as_view(), name='workers'),
-    path('workers/<pk>/', WorkerRetrieveUpdateDestroyAPIView.as_view(), name='worker_id'),
     path('workers/import/', WorkerImportAPIView.as_view(), name='worker_import'),
+    path('workers/<pk>/', WorkerRetrieveUpdateDestroyAPIView.as_view(), name='worker_id'),
 ]
